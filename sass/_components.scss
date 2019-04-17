@@ -1,0 +1,33 @@
+.Lander .grid {
+  &.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 80vh;
+    gap: 20px;
+    animation: resize 10000ms ease infinite both;
+  }
+}
+
+.box {
+  --color2: 36;
+  --color2: 76;
+  --delay: 0ms;
+  background-color: hsl(var(--color1), 100%, 60%);
+  animation: colorChange 20000ms ease var(--delay) infinite both;
+
+  font-size: 30px;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:nth-child(4n - 2) {
+    --delay: 1000ms;
+  }
+
+  &:nth-child(4n) {
+    --delay: 2000ms;
+  }
+}
