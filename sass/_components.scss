@@ -1,12 +1,15 @@
+.Lander {
+  margin-bottom: 50px;
+  height: 100%;
+}
+
 .Lander .grid {
-  &.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    height: 80vh;
-    gap: 20px;
-    animation: resize 10000ms ease infinite both;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  height: 100%;
+  gap: 20px;
+  animation: resize 10000ms ease infinite both;
 }
 
 .box {
@@ -30,4 +33,28 @@
   &:nth-child(4n) {
     --delay: 2000ms;
   }
+}
+
+// Newsfeed
+.Newsfeed {
+  // background-color: red;
+  & .article {
+    margin-bottom: 10px;
+
+    &--heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+
+    &--date {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+  }
+}
+
+// Sidebar
+.Sidebar {
+  // background-color: purple;
 }

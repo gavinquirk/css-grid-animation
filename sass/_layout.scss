@@ -3,8 +3,9 @@
 
   // GRID TEMPLATE
   display: grid;
-  grid-template-rows: repeat(2, auto);
+  grid-template-rows: 80vh auto;
   grid-template-columns: repeat(12, 1fr);
+  // grid-gap: 40px;
 }
 
 .Lander {
@@ -14,5 +15,10 @@
 
 .Newsfeed {
   grid-row: 2;
-  grid-column: 1 / -1;
+  grid-column: 1 / 11;
+}
+
+.Sidebar {
+  grid-row: 2;
+  grid-column: 11 / 13;
 }

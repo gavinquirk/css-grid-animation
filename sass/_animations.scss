@@ -4,7 +4,7 @@
   }
 
   25% {
-    background-color: hsl(76, 100%, 64%);
+    background-color: hsl(91, 98%, 62%);
   }
 
   50% {
@@ -47,27 +47,24 @@
   }
 }
 
-@keyframes fontAnimation {
-  0% {
-    font-size: 50px;
-    // color: red;
-  }
+// @keyframes fontAnimation {
+//   0% {
+//     font-size: 50px;
+//   }
 
-  25% {
-    font-size: 50px;
-    // color: purple;
-  }
+//   25% {
+//     font-size: 50px;
+//   }
 
-  50% {
-    font-size: 100px;
-    // color: green;
-  }
+//   50% {
+//     font-size: 100px;
+//   }
 
-  75% {
-    font-size: 50px;
-  }
+//   75% {
+//     font-size: 50px;
+//   }
 
-  100% {
-    font-size: 50px;
-  }
-}
+//   100% {
+//     font-size: 50px;
+//   }
+// }
